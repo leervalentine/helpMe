@@ -1,2 +1,68 @@
-<h1>Static#home</h1>
-<p>Find me in app/views/static/home.html.erb</p>
+<div class="homeimage">
+  <img src="http://www.jawboneuppromocode.com/wp-content/uploads/2013/10/jawbone-up1.png" alt="JawBone and Ace"/>
+ 
+</div>
+ 
+<div class="jumbotron" align="center">
+  <h1>Safe.Me</h1>
+  <p>Connect your UP jawbone tracker and keep you and your friends safe!</p>
+  <img src="http://a5.mzstatic.com/us/r30/Purple3/v4/c3/73/23/c37323ed-8f2d-093f-1814-1f37ef915859/icon320x320.png" height=68px width=68px/>
+  <br>
+  <br>
+  <p><a class="btn btn-primary btn-lg" href="https://jawbone.com/auth/oauth2/auth?response_type=code&client_id=S87lsXFsGU4&scope=extended_read&redirect_uri=http://dushi-27-144774.use1.nitrousbox.com/" role="button">Connect your UP</a></p>
+ 
+</div>
+ 
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Register your UP device</h2>
+          <p>Connect you UP by Jawbone account to the Safe.Me service and grant access to your basic data.  We use the data UP produces to keep you safe. </p>
+         
+        </div>
+       
+        <div class="col-md-4">
+          <h2>Identify your friends</h2>
+          <p>Choose three friends you trust and spend time with.  We remember these friends in the event they are needed. </p>
+         
+       </div>
+        <div class="col-md-4">
+          <h2>Be safe</h2>
+          <p>Wear your UP device and be safe.  In the event you need support, take action.  Cycle your sleep/wake status three times and we will alert your friends.</p>
+         
+        </div>
+       
+      </div>
+ 
+  <br>
+  <br>
+ 
+<div class="input-group">
+  <span class="input-group-addon">Friend 1</span>
+  <input type="text" class="form-control" placeholder="Input phone number">
+</div>
+ 
+<br>
+ 
+<div class="input-group">
+  <span class="input-group-addon">Friend 2</span>
+  <input type="text" class="form-control" placeholder="Input phone number">
+</div>
+ 
+<br>
+ 
+<div class="input-group">
+  <span class="input-group-addon">Friend 3</span>
+  <input type="text" class="form-control" placeholder="Input phone number">
+</div>
+ 
+<br>
+ 
+ 
+ 
+<br>
+ 
+<div>
+  <%=link_to 'Complete Sign up', static_thankyou_path, class:'btn btn-success' %>
+</div>
